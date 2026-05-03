@@ -100,4 +100,4 @@ class SSLExtDataset(SSLDataset):
         d[self.dataset_map[row.dataset]] = 1
         dt = torch.tensor(d, dtype=torch.float32)
 
-        return y, dt, target
+        return y, dt, target
