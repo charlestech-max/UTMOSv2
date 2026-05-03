@@ -60,4 +60,4 @@ class SSLLMultiSpecExtDataset(_BaseDataset):
         x1, d, target = self.ssl[idx]
         x2, _ = self.multi_spec[idx]
 
-        return x1, x2, d, target
+        return x1, x2, d, target

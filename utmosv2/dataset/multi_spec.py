@@ -158,4 +158,4 @@ def _make_stft(cfg: Config, spec_cfg: Config, y: np.ndarray) -> np.ndarray:
     spec = librosa.stft(y=y, n_fft=spec_cfg.n_fft, hop_length=spec_cfg.hop_length)
     spec = np.abs(spec)
     spec = librosa.amplitude_to_db(spec)
-    return spec
+    return spec
