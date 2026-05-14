@@ -23,4 +23,4 @@ from utmosv2._core.create import create_model
 def test_create_model(pretrained: bool) -> None:
     model = create_model(pretrained=pretrained)
     assert hasattr(model, "forward")
-    assert hasattr(model, "predict")
+    assert hasattr(model, "predict")
