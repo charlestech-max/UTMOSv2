@@ -10,4 +10,4 @@ __all__ = [
     "configure_defaults",
     "configure_inference_args",
     "configure_execution",
-]
+]
