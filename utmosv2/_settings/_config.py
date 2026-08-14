@@ -62,4 +62,4 @@ def configure_defaults(cfg: Config) -> None:
 def configure_execution(cfg: Config) -> None:
     cfg.data_config = None  # type: ignore
     cfg.phase = "prediction"  # type: ignore
-    cfg.print_config = False  # type: ignore
+    cfg.print_config = False  # type: ignore
