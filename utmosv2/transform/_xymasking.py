@@ -89,4 +89,4 @@ class XYMasking:
             y = np.random.randint(0, height - mask_y_length)
             img[:, y : y + mask_y_length, :] = self.fill_value
 
-        return img
+        return img
