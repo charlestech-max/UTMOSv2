@@ -215,4 +215,4 @@ def _get_external_data(cfg: Config, data: "pd.DataFrame") -> "pd.DataFrame":
 
     exdata = pd.concat(exdata, axis=0)
 
-    return exdata
+    return exdata
