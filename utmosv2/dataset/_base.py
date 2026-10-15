@@ -32,4 +32,4 @@ class _BaseDataset(torch.utils.data.Dataset, abc.ABC):
 
     @abc.abstractmethod
     def __getitem__(self, idx: int) -> tuple[torch.Tensor, ...]:
-        pass
+        pass
