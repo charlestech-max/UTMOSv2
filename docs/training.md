@@ -102,4 +102,4 @@ To use Weights & Biases (wandb) for experiment tracking, specify the `--wandb` o
 
 ```bash
 python train.py --config spec_only --data_config data_config.json --wandb
-```
+```
