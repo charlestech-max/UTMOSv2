@@ -114,4 +114,4 @@ def get_ssl_output_shape(name: str) -> tuple[int, int]:
     ]:
         return 13, 768
     else:
-        raise NotImplementedError
+        raise NotImplementedError
